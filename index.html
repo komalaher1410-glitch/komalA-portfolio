@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Komal Gorakhnath Aher — Frontend Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">Komal Aher</div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a class="cta" href="file:///D:/komal3/portfolio/KOMAL-AHER-resume.pdf" target="_blank" rel="noopener">Resume</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="accent">Komal Gorakhnath Aher</span></h1>
+          <p class="lead">A passionate and motivated Frontend/Web Developer creating clean, responsive, and user-friendly web pages. Skilled in HTML, CSS, JavaScript and MySQL. Eager to start a professional journey and contribute to real-world projects.</p>
+          <div class="buttons">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn ghost" href="mailto:komalaher1410@gmail.com">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card">
+            <h3>Contact</h3>
+            <p><strong>Email:</strong> komalaher1410@gmail.com</p>
+            <p><strong>Phone:</strong> 7776973965</p>
+            <p><strong>Location:</strong> India</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/komal-aher-35262a383" target="_blank" rel="noopener">linkedin.com/in/komal-aher-35262a383</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>I recently completed a Bachelor of Computer Science (Savitribai Phule Pune University, April 2025). I build responsive web pages and small web apps using core web technologies. I enjoy learning modern front-end practices, improving accessibility and performance, and delivering polished user interfaces.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="grid">
+          <article class="project-card">
+            <div class="project-head"><h3>Personal Portfolio Website</h3></div>
+            <p>Single-page responsive portfolio showcasing my skills, projects, and contact information.</p>
+            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+            <div class="links"><a href="index.html" aria-label="View demo">Live Demo</a> <a href="#" aria-label="View code">GitHub</a></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head"><h3>Calculator App</h3></div>
+            <p>A simple calculator supporting basic arithmetic operations. Demonstrates DOM manipulation and JavaScript logic.</p>
+            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+            <div class="links"><a href="D:\komal3\portfolio\komal_portfolio\projects\calculator\calculator.html">Live Demo</a> <a href="#" aria-label="View code">GitHub</a></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head"><h3>To-Do List App</h3></div>
+            <p>Manage tasks with add/delete, and persistent storage using browser localStorage.</p>
+            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+            <div class="links"><a href="D:\komal3\portfolio\komal_portfolio\projects\todo\todo.html">Live Demo</a> <a href="#" aria-label="View code">GitHub</a></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head"><h3>Landing Page UI</h3></div>
+            <p>A modern, responsive landing page demonstrating layout, typography and visual hierarchy.</p>
+            <p><strong>Tech:</strong> HTML, CSS</p>
+            <div class="links"><a href="projects/landing.html">Live Demo</a> <a href="#" aria-label="View code">GitHub</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div>HTML5</div>
+          <div>CSS3</div>
+          <div>JavaScript (ES6+)</div>
+          <div>Responsive Design</div>
+          <div>MySQL (basic)</div>
+          <div>Version Control (Git)</div>
+          <div>VS Code</div>
+          <div>Accessibility (A11Y basics)</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>I'm open to internships and entry-level frontend roles. You can reach me via email or LinkedIn.</p>
+        <form class="contact-form" action="mailto:komalaher1410@gmail.com" method="get" enctype="text/plain">
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+          <textarea name="message" rows="5" placeholder="Message" required></textarea>
+          <div class="form-row">
+            <button class="btn" type="submit">Send</button>
+            <a class="btn ghost" href="file:///D:/komal3/portfolio/KOMAL-AHER-resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© Komal Gorakhnath Aher • Built with HTML, CSS & JavaScript</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
